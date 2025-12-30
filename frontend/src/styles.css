@@ -1,0 +1,15 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background: #070712; color: #eaeaf2; }
+.container { max-width: 980px; margin: 0 auto; padding: 18px; }
+.card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 16px; }
+.h1 { font-size: 28px; font-weight: 800; display:flex; align-items:center; gap:10px; margin: 4px 0 14px; }
+.badge { width: 34px; height: 34px; border-radius: 10px; background: rgba(140,90,255,0.18); border: 1px solid rgba(140,90,255,0.35); display:flex; align-items:center; justify-content:center;}
+.row { display:grid; gap: 14px; }
+.controls { display:grid; gap: 10px; }
+.btn { background: #8c5aff; border: none; color: #fff; padding: 12px 14px; border-radius: 14px; font-weight: 700; }
+.btn:disabled { opacity: 0.5; }
+.input { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); padding: 12px; border-radius: 14px; width: 100%; }
+.label { font-size: 12px; opacity: 0.75; display:flex; justify-content:space-between; }
+.slider { width: 100%; }
+.previewWrap { border-radius: 18px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: #0b0b16; }
+.note { font-size: 12px; opacity: 0.7; }
